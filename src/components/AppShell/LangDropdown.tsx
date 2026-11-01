@@ -7,7 +7,9 @@ const LANG_LABELS: { lang: Lang; label: string }[] = [
   { lang: "ko", label: "한국어" },
   { lang: "en", label: "English" },
   { lang: "ja", label: "日本語" },
+  { lang: "zh", label: "简体中文" },
 ];
+
 
 export function LangDropdown() {
   const [open, setOpen] = useState(false);
